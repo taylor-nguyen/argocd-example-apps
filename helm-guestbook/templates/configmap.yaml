@@ -1,0 +1,8 @@
+# create a configmap
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: my-configmap
+  namespace: default
+data:
+  message: "my test value"
